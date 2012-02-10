@@ -1,0 +1,15 @@
+ofxColorRamp
+
+DESCRIPTION
+-----------
+
+After years of using Maya I couldn't not think of using the Ramp node in the hypershader to develop particle systems. Used in this project for colored smoke: 
+http://shawnlawson.com/#operationhumanshield.html
+
+Basically, use it to get a complex RGBA change over some period of time. Extension only provides a quick color lookup into an image with a 0.0 - 1.0 range. If using in a particle system, load once per system - not once per particle. You'll have to manage your own time or each particle will have to manage it's own time/lifespan. 
+
+
+FUTURE
+------
+
+Non-image based color ramp creation.
